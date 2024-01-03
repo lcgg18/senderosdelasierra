@@ -1,95 +1,107 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import NextLink from "next/link";
+import styles from "../../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
+    <div>
+      <main>
+        <h1 className={styles.title}>Bienvenidos a la APP del Conjunto</h1>
+        <h2 className={styles.subtitle}>
+          Metodos de pago de la Administración
+        </h2>
+
+        <div className={styles.imagine}>
+          <NextLink
+            href="https://www.avalpaycenter.com/wps/portal/portal-de-pagos/web/pagos-aval/resultado-busqueda/realizar-pago?idConv=00024970&origen=buscar"
             rel="noopener noreferrer"
+            target="_blank"
+            passHref
           >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+            <Image src="/PSE.png" alt="Pago por PSE" width={200} height={200} />
+          </NextLink>
         </div>
-      </div>
+        
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+        
+        <h2 className={styles.subtitle}>
+          Metodos de contacto con la Administración
+        </h2>
+        <div className={styles.imagine}>
+          <NextLink
+            href="https://wa.me/573215036003?text=Hola%20!"
+            rel="noopener noreferrer"
+            target="_blank"
+            passHref
+          >
+            <Image src="/WA.png" alt="WhatsApp" width={200} height={200} />
+          </NextLink>
+        </div>
+        <div className={styles.imagine}>
+          <NextLink
+            href="mailto:senderosdelasierrav@gmail.com"
+            rel="noopener noreferrer"
+            target="_blank"
+            passHref
+          >
+            <Image src="/ce.png" alt="senderosdelasierrav@gmail.com" width={200} height={200} />
+          </NextLink>
+        </div>
+        
+      </main>
+    </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+    // <div>
+    //   <div className="imagen">
+    //     <div className="img1">
+    //       {/* <Image src="/App1.png" alt="ProntoPago" width="484" height="212" /> */}
+    //       <Image src="/Nd.png" alt="Feliz Navidad" width="484" height="212" />
+    //     </div>
+    //   </div>
+    //   {/* <div className="imagen"></div>
+    // <div className="img1">
+    // <a
+    //     href="https://docs.google.com/forms/d/e/1FAIpQLSeOd4Cz_Z0AuDJ6cyfFLjzNvRNZtC2lAgEwn-onmf9cN8FerA/viewform?usp=sf_link"
+    //     rel="noopener noreferrer"
+    //     target="_blank"
+    //   >
+    //   <Image src="/AD1.png" alt="Actualizacion de datos" width="420" height="175" />
+    //   </a>
+    // </div>
+    // </div>  */}
+    //   <p className={styles.description}>Medios de Pagos</p>
+    //   <div className={styles.grid}>
+    //     <NextLink href="/corresponsal" passHref>
+    //       <a className={styles.card}>
+    //         <p>Corresponsal Bancolombia </p>
+    //       </a>
+    //     </NextLink>
+    //     <NextLink href="/bancario" passHref>
+    //       <a className={styles.card}>
+    //         <p>Pagos Bancario </p>
+    //       </a>
+    //     </NextLink>
+    //   </div>
+    //   <p className={styles.description}>Documentos</p>
+    //   <div className={styles.grid}>
+    //     <NextLink href="/documentos" passHref>
+    //       <a className={styles.card}>
+    //         <p>Documentos</p>
+    //       </a>
+    //     </NextLink>
+    //   </div>
+    //   <p className={styles.description}>Metodos de Contacto</p>
+    //   <div className={styles.grid}>
+    //     <a
+    //       href="https://wa.me/573104948976?text=Hola%20te%20hablo%20desde%20la%20%20APP!"
+    //       className={styles.card}
+    //     >
+    //       <p>WhatsApp </p>
+    //     </a>
+    //     <a href="mailto:floresdemaria4595@gmail.com" className={styles.card}>
+    //       <p>Correo Electronico</p>
+    //     </a>
+    //   </div>
+    // </div>
+  );
 }
