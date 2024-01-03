@@ -18,7 +18,7 @@ export default function Home() {
             target="_blank"
             passHref
           >
-            <Image src="/PSE.png" alt="Pago por PSE" width={200} height={200} />
+            <Image src="/PSE.png" alt="Pago por PSE" width={160} height={160} />
           </NextLink>
         </div>
         
@@ -34,7 +34,7 @@ export default function Home() {
             target="_blank"
             passHref
           >
-            <Image src="/WA.png" alt="WhatsApp" width={200} height={200} />
+            <Image src="/WA.png" alt="WhatsApp" width={160} height={160} />
           </NextLink>
         </div>
         <div className={styles.imagine}>
@@ -44,7 +44,7 @@ export default function Home() {
             target="_blank"
             passHref
           >
-            <Image src="/CE.png" alt="senderosdelasierrav@gmail.com" width={200} height={200} />
+            <Image src="/CE.png" alt="senderosdelasierrav@gmail.com" width={160} height={160} />
           </NextLink>
         </div>
         

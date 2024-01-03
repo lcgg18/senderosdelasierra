@@ -26,7 +26,7 @@ export default function RootLayout({
         </Head>
         <nav className={styles.nav}>
           <NextLink href="/" passHref>
-            <Image src="/FL1.png" alt="Logo" width={400} height={200} />
+            <Image src="/FL1.png" alt="Logo" width={360} height={180} />
           </NextLink>
         </nav>
 
@@ -35,7 +35,7 @@ export default function RootLayout({
         </main>
         <footer className={styles.footer}>
           <span className={styles.subtitle}>
-            ASESORIAS Y SERVICIOS GYG SAS® 2023
+            ASESORIAS Y SERVICIOS GYG SAS® 2024
           </span>
         </footer>
       </div>
