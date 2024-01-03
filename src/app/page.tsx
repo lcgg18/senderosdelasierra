@@ -44,7 +44,7 @@ export default function Home() {
             target="_blank"
             passHref
           >
-            <Image src="/ce.png" alt="senderosdelasierrav@gmail.com" width={200} height={200} />
+            <Image src="/CE.png" alt="senderosdelasierrav@gmail.com" width={200} height={200} />
           </NextLink>
         </div>
         
