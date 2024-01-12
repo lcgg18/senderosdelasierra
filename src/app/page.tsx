@@ -47,12 +47,10 @@ export default function Home() {
             <Image src="/CE.png" alt="senderosdelasierrav@gmail.com" width={160} height={160} />
           </NextLink>
         </div>
-        
-        <h1 className={styles.title}>
-          Solicitud de Garantia
-          <br />
-          Constructora
-        </h1>
+        <br />
+          <h2 className={styles.subtitle}>
+            Solicitud de Garantia Constructora
+          </h2>
         <div className={styles.imagine}>
           <NextLink
             href="https://orbeconstrucciones.com.co/postventa/"
