@@ -23,9 +23,24 @@ export default function RootLayout({
       <div className={styles.container}>
         <Head>
           <link rel="icon" href="/favicon.ico" />
-          <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
-          <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png"/>
-          <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png"/>
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="favicon-32x32.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="512x512"
+            href="android-chrome-512x512.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="android-chrome-192x192.png"
+          />
         </Head>
         <nav className={styles.nav}>
           <NextLink href="/" passHref>
@@ -33,9 +48,7 @@ export default function RootLayout({
           </NextLink>
         </nav>
 
-        <main className={styles.main}>
-         {children}
-        </main>
+        <main className={styles.main}>{children}</main>
         <footer className={styles.footer}>
           <span className={styles.subtitle}>
             ASESORIAS Y SERVICIOS GYG SAS® 2024
