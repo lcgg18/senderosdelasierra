@@ -48,6 +48,19 @@ export default function Home() {
           </NextLink>
         </div>
         
+        <h2 className={styles.subtitle}>
+          Solicitudes de garantia
+        </h2>
+        <div className={styles.imagine}>
+          <NextLink
+            href="https://orbeconstrucciones.com.co/postventa/"
+            rel="noopener noreferrer"
+            target="_blank"
+            passHref
+          >
+            <Image src="/PV.png" alt="Garantia" width={160} height={160} />
+          </NextLink>
+        </div>
       </main>
     </div>
 
