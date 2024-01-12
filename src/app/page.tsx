@@ -18,7 +18,7 @@ export default function Home() {
             target="_blank"
             passHref
           >
-            <Image src="/PSE.png" alt="Pago por PSE" width={160} height={160} />
+            <Image src="/PSE.png" alt="Pago por PSE" width={100} height={100} />
           </NextLink>
         </div>
         
@@ -34,9 +34,9 @@ export default function Home() {
             target="_blank"
             passHref
           >
-            <Image src="/WA.png" alt="WhatsApp" width={160} height={160} />
+            <Image src="/WA.png" alt="WhatsApp" width={100} height={100} />
           </NextLink>
-        </div>
+          </div>
         <div className={styles.imagine}>
           <NextLink
             href="mailto:senderosdelasierrav@gmail.com"
@@ -44,7 +44,7 @@ export default function Home() {
             target="_blank"
             passHref
           >
-            <Image src="/CE.png" alt="senderosdelasierrav@gmail.com" width={160} height={160} />
+            <Image src="/CE.png" alt="senderosdelasierrav@gmail.com" width={100} height={100} />
           </NextLink>
         </div>
         <br />
@@ -58,7 +58,7 @@ export default function Home() {
             target="_blank"
             passHref
           >
-            <Image src="/PV.png" alt="Garantia" width={160} height={160} />
+            <Image src="/PV.png" alt="Garantia" width={100} height={100} />
           </NextLink>
         </div>
       </main>
