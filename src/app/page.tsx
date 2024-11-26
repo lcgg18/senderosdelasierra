@@ -17,7 +17,7 @@ export default function Home() {
             target="_blank"
             passHref
           >
-          <Image src="/AS.png" alt="ASAMBLEA" width={600} height={300} />
+          <Image src="/AS.png" alt="ASAMBLEA" width={400} height={200} />
           </NextLink>
         </div>
 
