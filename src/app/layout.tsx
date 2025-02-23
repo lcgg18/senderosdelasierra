@@ -51,7 +51,7 @@ export default function RootLayout({
         <main className={styles.main}>{children}</main>
         <footer className={styles.footer}>
           <span className={styles.subtitle}>
-            ASESORIAS Y SERVICIOS GYG SAS® 2024
+            ASESORIAS Y SERVICIOS GYG SAS® 2025
           </span>
         </footer>
       </div>
